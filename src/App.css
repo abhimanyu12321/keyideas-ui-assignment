@@ -1,0 +1,321 @@
+/* General Styles */
+.dborder {
+  border: 1px solid black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.form-input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  border-radius: 5px;
+  outline: none;
+}
+
+.section-description {
+  color: #929292;
+  max-width: 400px;
+}
+.section-description-2 {
+  color: #929292;
+  max-width: 400px;
+  margin: auto;
+}
+/* Navbar Styles */
+.navbar {
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #333 !important;
+  font-size: 16px;
+  padding: 10px 15px !important;
+}
+
+.nav-icon {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navbar-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 30px 0;
+  background-color: #fff;
+  margin-bottom: 6rem;
+  margin-top: -4rem;
+}
+.hero-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.vintage-title {
+  font-size: 36px;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.price-text {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.promo-text {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+.side-ring {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-ring {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero-content {
+  padding: 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-link {
+  color: #666;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  margin: 0 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #666;
+}
+
+/* Collection Section */
+.collection-section {
+  padding: 40px 0;
+  background-color: #f7b79d;
+  height: 381px;
+  margin-top: 12rem;
+}
+
+.collection-card {
+  transition: transform 0.3s;
+  border-radius: 0;
+  /* width: 233px; */
+}
+
+.collection-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-contain {
+  object-fit: contain;
+  height: 200px;
+}
+
+/* Loose Diamonds Section */
+.loose-diamonds-section {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.diamond-shape {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.diamond-shape:hover {
+  transform: scale(1.05);
+}
+
+.diamond-shape-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.diamonds-carousel .carousel-indicators {
+  bottom: -30px;
+}
+
+/* Keep In Touch Section */
+.keep-in-touch-section {
+  padding: 40px 0;
+  background-color: #fff;
+  margin-top: 4rem;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Footer Section */
+footer {
+  padding-top: 40px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+}
+
+.brand-name {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.years-text {
+  font-size: 14px;
+  color: #f7b79d;
+  margin-top: 5px;
+}
+
+.footer-link {
+  color: #929292;
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 16px;
+}
+
+.legal-link {
+  color: #888;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 12px;
+}
+
+.cert-icon,
+.payment-icon {
+  margin: 0 5px;
+  height: 40px;
+  width: 70px;
+  object-fit: contain;
+}
+
+.about-store {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #929292;
+}
+.line {
+  border: 0.5px solid #c2c2c2;
+  width: 100%;
+  margin: 20px 0;
+  margin-block: 3rem;
+}
+.footer-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 26px;
+  margin-block: 3rem;
+}
+.copyright {
+  color: #929292;
+  font-size: 12px;
+  margin-block: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .vintage-title {
+    font-size: 28px;
+  }
+
+  .hero-content {
+    padding: 10px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .vintage-title {
+    font-size: 24px;
+  }
+
+  .price-text {
+    font-size: 20px;
+  }
+
+  .promo-text {
+    font-size: 14px;
+  }
+
+  .gallery-img {
+    height: 120px;
+  }
+
+  .footer-link {
+    display: inline-block;
+    margin: 5px 10px;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 575px) {
+  .diamond-shape-title {
+    font-size: 12px;
+  }
+
+  .gallery-img {
+    height: 100px;
+  }
+}
+
+.dcard {
+  border: 1px solid #dfdfdf;
+  width: 150px;
+  transform: skewY(4deg);
+}
