@@ -53,6 +53,7 @@ const CollectionSection = () => {
             left: "50%",
             transform: "translate(-50%, -50%)",
           }}
+          className="coll-container"
         >
           <Row className="g-4">
             {collections.map((collection) => (

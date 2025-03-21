@@ -264,11 +264,17 @@ footer {
   font-size: 12px;
   margin-block: 1rem;
 }
+.coll-container {
+  display: block;
+}
 
 /* Media Queries */
 @media (max-width: 991px) {
   .vintage-title {
     font-size: 28px;
+  }
+  .coll-container {
+    display: none;
   }
 
   .hero-content {
